@@ -1,9 +1,9 @@
 <template>
-  <v-row class="py-5" no-gutters align="center" justify="center">
+  <v-row no-gutters align="center" justify="center">
     <v-btn
       v-for="site in sites"
       :key="site.url"
-      class="mx-5"
+      class="ma-5"
       color="#1685C5"
       :href="site.url"
       target="_blank"

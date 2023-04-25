@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-row class="py-12" no-gutters align="center" justify="center">
+    <v-row class="py-12 px-5" no-gutters align="center" justify="center">
       <v-card class="pa-12" width="800">
         <v-col class="pa-0">
           <About />

@@ -37,12 +37,15 @@
           basketball. I would like to be a videogame streamer at some point.
         </v-card-text>
         <v-card-text>
-          <v-row no-gutters align="center" justify="center">
-            <v-icon class="mr-2" icon="phone"></v-icon>
-            <span>(+1) 8633488877</span>
-            <v-divider class="mx-3" vertical></v-divider>
-            <v-icon class="mr-2" icon="email"></v-icon>
-            <span>javivasv@gmail.com</span>
+          <v-row no-gutters align="center" justify="space-around">
+            <div class="ma-3">
+              <v-icon class="mr-2" icon="phone"></v-icon>
+              <span>(+1) 8633488877</span>
+            </div>
+            <div class="ma-3">
+              <v-icon class="mr-2" icon="email"></v-icon>
+              <span>javivasv@gmail.com</span>
+            </div>
           </v-row>
         </v-card-text>
       </v-row>
