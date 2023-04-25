@@ -7,6 +7,10 @@ const routes: Array<RouteRecordRaw> = [
     name: "home",
     component: Home,
   },
+  {
+    path: "/:catchAll(.*)",
+    redirect: "/",
+  },
 ];
 
 const router = createRouter({

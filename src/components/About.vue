@@ -1,0 +1,58 @@
+<template>
+  <v-row no-gutters>
+    <v-col>
+      <v-row
+        class="py-6"
+        no-gutters
+        justify="center"
+        style="background-size: contain"
+        :style="{
+          'background-image': `url(${require('@/assets/background_pic.jpg')})`,
+        }"
+      >
+        <v-avatar size="200">
+          <v-img :src="require('@/assets/profile_pic.jpeg')"></v-img>
+        </v-avatar>
+      </v-row>
+      <v-row class="py-5" no-gutters align="center" justify="center">
+        <h2>Hey, I'm Javier Vivas</h2>
+      </v-row>
+      <v-row no-gutters align="center" justify="center">
+        <v-card-text>
+          I'm a Computer/Software Engineer graduated from Universidad Simón
+          Bolívar in Caracas, Venezuela. I currently live in Davenport, Florida,
+          USA. I'm an American resident and a Venezuelan and Italian citizen. I
+          speak both spanish and english.
+        </v-card-text>
+        <v-card-text>
+          As a software developer, I focus primarily in frontend development in
+          VueJS, but I also have knowledge of ReactJS and AngularJS.
+          Furthermore, I have experience in backend development in MongoDB and
+          NodeJS. I currently work as a Frontend Engineer in an online 3D model
+          interactive viewer.
+        </v-card-text>
+        <v-card-text>
+          I'm a Star Wars fan and enjoy playing videogames (Zelda and Pokemon
+          fan), listen to music (mostly rock and metal), working out and play
+          basketball. I would like to be a videogame streamer at some point.
+        </v-card-text>
+        <v-card-text>
+          <v-row no-gutters align="center" justify="center">
+            <v-icon class="mr-2" icon="phone"></v-icon>
+            <span>(+1) 8633488877</span>
+            <v-divider class="mx-3" vertical></v-divider>
+            <v-icon class="mr-2" icon="email"></v-icon>
+            <span>javivasv@gmail.com</span>
+          </v-row>
+        </v-card-text>
+      </v-row>
+    </v-col>
+  </v-row>
+</template>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "About",
+});
+</script>
