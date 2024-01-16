@@ -35,6 +35,16 @@ export default defineComponent({
           url: "https://github.com/javivasv",
           logo: "github_logo.png",
         },
+        {
+          name: "Buy Me a Coffee",
+          url: "https://www.buymeacoffee.com/javivasv",
+          logo: "buymeacoffee_logo.png",
+        },
+        {
+          name: "Nuzlocke Database",
+          url: "https://nuzlockedatabase.com/home",
+          logo: "pokeball.png",
+        },
       ],
     };
   },
