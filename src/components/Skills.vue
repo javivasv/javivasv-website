@@ -20,10 +20,19 @@ export default defineComponent({
     return {
       skills: [
         {
+          name: "TypeScript",
+        },
+        {
           name: "JavaScript",
         },
         {
-          name: "TypeScript",
+          name: "ReactJS",
+        },
+        {
+          name: "Redux",
+        },
+        {
+          name: "MUI",
         },
         {
           name: "VueJS 2",
@@ -44,22 +53,22 @@ export default defineComponent({
           name: "CSS",
         },
         {
-          name: "ReactJS",
-        },
-        {
           name: "AngularJS",
         },
         {
-          name: "MongoDB",
+          name: "NodeJS",
         },
         {
-          name: "NodeJS",
+          name: "MongoDB",
         },
         {
           name: "Python",
         },
         {
           name: "Django",
+        },
+        {
+          name: "Java",
         },
       ],
     };
