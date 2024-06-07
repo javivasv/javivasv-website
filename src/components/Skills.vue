@@ -32,7 +32,7 @@ export default defineComponent({
           name: "Redux",
         },
         {
-          name: "MUI",
+          name: "Material UI",
         },
         {
           name: "VueJS 2",
@@ -53,7 +53,13 @@ export default defineComponent({
           name: "CSS",
         },
         {
-          name: "AngularJS",
+          name: "Jest",
+        },
+        {
+          name: "Vite",
+        },
+        {
+          name: "Vitest",
         },
         {
           name: "NodeJS",
@@ -66,6 +72,9 @@ export default defineComponent({
         },
         {
           name: "Django",
+        },
+        {
+          name: "AngularJS",
         },
         {
           name: "Java",

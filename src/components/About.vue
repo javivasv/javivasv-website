@@ -25,11 +25,9 @@
           speak both spanish and english.
         </v-card-text>
         <v-card-text>
-          As a software developer, I focus primarily in frontend development in
-          VueJS, but I also have knowledge of ReactJS and AngularJS.
-          Furthermore, I have experience in backend development in MongoDB and
-          NodeJS. I currently work as a Frontend Engineer in an online 3D model
-          interactive viewer.
+          As a software developer, I focus primarily in frontend development
+          using ReactJS and VueJS. Furthermore, I have experience in backend
+          development using NodeJS and in database management using MongoDB.
         </v-card-text>
         <v-card-text>
           I'm a Star Wars fan and enjoy playing videogames (Zelda and Pokemon
@@ -40,7 +38,7 @@
           <v-row no-gutters align="center" justify="space-around">
             <div class="ma-3">
               <v-icon class="mr-2" icon="phone"></v-icon>
-              <span>(+1) 8633488877</span>
+              <span>(+1) 863-348-8877</span>
             </div>
             <div class="ma-3">
               <v-icon class="mr-2" icon="email"></v-icon>

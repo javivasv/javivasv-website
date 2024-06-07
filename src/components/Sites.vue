@@ -3,7 +3,7 @@
     <v-btn
       v-for="site in sites"
       :key="site.url"
-      class="ma-5"
+      class="ma-5 sites"
       color="#1685C5"
       :href="site.url"
       target="_blank"
